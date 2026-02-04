@@ -33,9 +33,10 @@
                 -  UI: Increased font size to 3 for 'Copy' exercises and 'Free Sending'.
                 -  UI: Optimized line wrapping and screen clearing for larger fonts to maximize screen usage.
                 -  Arduino IDE 2.3.7
-                >> 02-2026: Squeeze function added to FREEPRACTICE menu 
+                >> 02-2026: Minor update
+                -  Squeeze function added to FREEPRACTICE menu 
                 -  Fixed screen reset in receive mode
-
+                -  Word list in Receive mode updated (most used expressions in QSO)
                 ----------------------------------------------------------------------------------
     
  Description:   Practice sending & receiving morse code
@@ -2384,3 +2385,4 @@ void loop()
     default: ;
   }  
 }
+

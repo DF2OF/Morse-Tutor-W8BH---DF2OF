@@ -34,3 +34,12 @@ Improvements/Changes to the original Software:
                 -  Squeeze function added to FREEPRACTICE menu 
                 -  Fixed screen reset in receive mode
                 -  Updated word list (most used QSO expessions) 
+                
+04-2026:           Keyer Update:
+                -  Added Ultimatic keyer mode (last-paddle priority).
+                -  Updated Config/Key menu: Mode selection via Squeeze added.
+                -  Rewrote paddle logic (paddleInput, getPatternFromPaddles) to support Ultimatic.
+                -  Adjusted dit() and dah() functions for global paddle tracking.
+                -  Fixed "Copy Words" and "Head Copy" to properly handle multi-word strings.
+                -  Increased buffer sizes in mimic functions to prevent overflows with long QSO sentences.
+                -  Last Menu setting is saved for next power on.
